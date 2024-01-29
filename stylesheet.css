@@ -40,17 +40,27 @@ nav img {
 h1 {
   font-family: "Rubik", sans-serif;
   color: white;
-  margin: 30px 20px 10px 20px;
+  margin: 30px 20px 10px 25px;
+  font-weight: 500;
 }
 h2 {
   font-family: "Rubik", sans-serif;
   color: white;
+  font-size: 35px;
   font-weight: 500;
+  text-align: center;
 }
 h3 {
   font-family: "Rubik", sans-serif;
   color: white;
-  margin: 0px 20px;
+  font-size: 27px;
+  font-weight: 500;
+}
+h4 {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  margin: 0px 25px;
+  font-weight: 400;
 }
 p {
   color: white;
@@ -75,6 +85,32 @@ p {
   display: block;
   margin: 0 auto;
   width: 200px;
+}
+.quienes-somos {
+  position: relative;
+}
+.bubble-background {
+  width: 410px;
+  position: absolute;
+  top: 350px;
+  z-index: -1;
+}
+#Nuestros-servicios {
+  margin: 10px;
+}
+.panel {
+  background-color: #140e39;
+  border-radius: 20px;
+  padding: 35px;
+  margin: 22px;
+}
+.panel p {
+  margin-top: 15px;
+  font-weight: 300;
+}
+.panel h3 {
+  text-align: right;
+  margin-right: 22px;
 }
 @media only screen and (min-width: 1060px) {
   #quienes-somos {
