@@ -108,9 +108,31 @@ p {
   margin-top: 15px;
   font-weight: 300;
 }
+ul li {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  list-style: none;
+  list-style-type: "-";
+  margin: 10px;
+}
+
 .panel h3 {
   text-align: right;
   margin-right: 22px;
+}
+.big-panel {
+  background-color: #140e39;
+  border-radius: 20px;
+  padding: 35px;
+  margin: 22px;
+}
+.big-panel img {
+  width: 250px;
+  margin: 50px auto;
+  display: block;
+}
+.big-panel h3 {
+  margin: 45px 0 10px 0;
 }
 @media only screen and (min-width: 1060px) {
   #quienes-somos {
