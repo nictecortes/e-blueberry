@@ -153,6 +153,62 @@ ul li {
 .n-c-footer p {
   margin-left: 10px;
 }
+.formulario {
+  margin: 20px;
+}
+label {
+  line-height: 26px;
+}
+
+textarea {
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 20px;
+  width: 250px;
+  box-shadow: none;
+  border-style: solid;
+}
+input {
+  background-color: transparent;
+  border-color: white;
+  border-radius: 20px;
+  width: 140px;
+  height: 23px;
+  color: white;
+  box-shadow: none;
+  border-style: solid;
+  margin: 2px;
+  padding: 5px;
+  padding-left: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  opacity: 1;
+  margin: 10px;
+}
+button {
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: #3f2a75;
+  box-shadow: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  width: 25%;
+}
+
 @media only screen and (min-width: 1060px) {
   #quienes-somos {
     display: flex;
