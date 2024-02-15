@@ -30,13 +30,6 @@ nav img {
 .menu {
   display: none;
 }
-.menu a {
-  text-decoration: none;
-  color: white;
-  margin-right: 10px;
-  font-family: "Roboto Mono", monospace;
-}
-
 h1 {
   font-family: "Rubik", sans-serif;
   color: white;
@@ -71,6 +64,10 @@ p {
   width: 80px;
   margin: 100px auto 10px;
 }
+#quienes-somos {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
 .nektar-logo {
   width: 100px;
 }
@@ -83,7 +80,7 @@ p {
 }
 .lap-top-img {
   display: block;
-  margin: 0 auto;
+  margin: 60px auto;
   width: 200px;
 }
 .quienes-somos {
@@ -217,7 +214,7 @@ textarea::placeholder {
   font-family: "Roboto Mono", monospace;
   font-size: 12px;
   opacity: 1;
-  padding: 40px;
+  padding: 10px;
 }
 button {
   display: flex;
@@ -248,26 +245,129 @@ button {
   width: 170px;
 }
 
-@media only screen and (min-width: 1060px) {
+@media only screen and (min-width: 950px) {
   #quienes-somos {
     display: flex;
   }
   nav img {
     width: 150px;
     height: 30px;
-    margin: 20px;
+    margin: 30px;
+    margin-left: 50px;
   }
-  .lap-top-img {
-    width: 100px;
-  }
+
   .menu {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
   }
+
   .menu a {
     text-decoration: none;
     color: white;
     margin-right: 30px;
     font-family: "Roboto Mono", monospace;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff9e00;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+  }
+  h1 {
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 200px;
+  }
+  h4 {
+    font-size: 35px;
+    margin-left: 60px;
+    margin-bottom: 200px;
+  }
+  .white-logo {
+    width: 200px;
+  }
+  .lap-top-img {
+    width: 350px;
+    margin: auto 80px auto 40px;
+  }
+  .qs-text {
+    margin: 60px;
+  }
+  .qs-text p {
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 22px;
+  }
+  #Nuestros-servicios {
+    margin: 60px;
+  }
+  #Nuestros-servicios h2 {
+    font-size: 65px;
+    margin-bottom: 50px;
+  }
+  .panel h3 {
+    font-size: 45px;
+  }
+  .panel p {
+    font-size: 22px;
+  }
+
+  .big-panel h3 {
+    font-size: 40px;
+  }
+  .big-panel p {
+    font-size: 22px;
+  }
+  ul li {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  #quienes-somos {
+    display: flex;
+  }
+  nav img {
+    width: 200px;
+    height: 40px;
+    margin: 30px;
+    margin-left: 50px;
+  }
+  .lap-top-img {
+    width: 450px;
+  }
+  .menu {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .menu a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-family: "Roboto Mono", monospace;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff9e00;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+  }
+  h1 {
+    font-size: 60px;
+    margin-left: 80px;
+    margin-top: 200px;
+  }
+  h4 {
+    font-size: 45px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+  }
+
+  .white-logo {
+    width: 300px;
+  }
+  .small-panels {
+    display: flex;
   }
 }
