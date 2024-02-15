@@ -395,6 +395,9 @@ button {
   .big-panel h3 {
     font-size: 70px;
   }
+  .big-panel p {
+    line-height: 44px;
+  }
   .big-panel img {
     width: 400px;
   }
