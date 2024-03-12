@@ -244,6 +244,9 @@ button {
 .blueberry-form {
   width: 170px;
 }
+.form {
+  margin: 50px;
+}
 
 @media only screen and (min-width: 950px) {
   #quienes-somos {
