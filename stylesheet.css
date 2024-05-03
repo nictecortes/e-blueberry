@@ -118,7 +118,7 @@ ul li {
   margin-right: 22px;
 }
 .big-panel {
-  background-color: #140e39;
+  background-color: hsl(248, 61%, 14%, 0.8);
   border-radius: 20px;
   padding: 35px;
   margin: 22px;
@@ -243,7 +243,7 @@ button {
   text-align: center;
 }
 .Contáctanos-btn--container {
-  border-radius: 17px;
+  border-radius: 25px;
   border: #ff9e00;
   border-width: 2px;
   border-style: solid;
@@ -255,10 +255,10 @@ button {
   margin: auto;
 }
 .bubble-form {
-  width: 50%;
+  width: 60%;
   position: absolute;
   right: 10%;
-  bottom: 70px;
+  top: 450%;
   z-index: -1;
 }
 .blueberry-form {
@@ -266,6 +266,16 @@ button {
 }
 .form {
   margin: 50px;
+}
+.bubble-abajo {
+  display: none;
+  width: 50%;
+  position: absolute;
+  right: 10%;
+  z-index: -1;
+}
+.bubble-clientes {
+  display: none;
 }
 
 @media only screen and (min-width: 950px) {
@@ -362,10 +372,25 @@ button {
     text-align: left;
     margin-left: 5%;
   }
+
+  .bubble-form {
+    display: none;
+  }
+  .bubble-abajo {
+    display: flex;
+    width: 50%;
+    position: absolute;
+    right: 8%;
+    top: 5000px;
+    z-index: -1;
+  }
 }
 @media only screen and (min-width: 1400px) {
   #quienes-somos {
     display: flex;
+  }
+  .hero {
+    height: 1000px;
   }
   nav img {
     width: 200px;
@@ -403,6 +428,9 @@ button {
     font-size: 45px;
     margin-left: 80px;
     margin-bottom: 200px;
+  }
+  #quienes-somos {
+    height: 700px;
   }
 
   .white-logo {
@@ -475,5 +503,27 @@ button {
   }
   button {
     width: 150px;
+  }
+  .bubble-form {
+    display: none;
+  }
+  .blueberry-form {
+    width: 25%;
+  }
+  .bubble-abajo {
+    display: flex;
+    width: 50%;
+    position: absolute;
+    right: 8%;
+    top: 550%;
+    z-index: -1;
+  }
+  .bubble-clientes {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    left: 11px;
+    z-index: -1;
+    top: 4150px;
   }
 }
