@@ -147,6 +147,11 @@ ul li {
   width: 200px;
   margin: 20px auto;
 }
+.kommo-img {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
 .n-c-footer {
   margin: 25px;
 }
@@ -364,6 +369,7 @@ button {
     margin: 100px auto;
     width: 50%;
   }
+
   .n-c-footer p {
     font-size: 25px;
   }
